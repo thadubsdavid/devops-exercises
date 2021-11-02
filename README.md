@@ -402,6 +402,11 @@ Build artifacts are usually stored in a repository. They can be used in release 
 	* Canary releases
 	* Recreate strategy
 
+Blue-green deployment is a technique that reduces downtime and risk by running two identical production environments called Blue and Green.
+At any time, only one of the environments is live, with the live environment serving all production traffic. For this example, Blue is currently live and Green is idle.
+
+
+
 </b></details>
 
 <details>
@@ -411,11 +416,11 @@ Build artifacts are usually stored in a repository. They can be used in release 
 <details>
 <summary>Explain test-driven development (TDD)</summary><br><b>
 </b></details>
-
+Test-driven development (TDD) is a software development process relying on software requirements being converted to test cases before software is fully developed, and tracking all software development by repeatedly testing the software against all test cases.
 <details>
 <summary>Explain agile software development</summary><br><b>
 </b></details>
-
+Agile software development refers to software development methodologies centered round the idea of iterative development, where requirements and solutions evolve through collaboration between self-organizing cross-functional teams.
 <details>
 <summary>What do you think about the following sentence?: "implementing or practicing DevOps leads to more secure software"</summary><br><b>
 </b></details>
@@ -426,6 +431,7 @@ Build artifacts are usually stored in a repository. They can be used in release 
 
 <details>
 <summary>What is a configuration drift? What problems is it causing?</summary><br><b>
+Configuration drift refers to an environment in which running clusters in an infrastructure become increasingly different over time, usually due to manual changes and updates on individual clusters
 
 Configuration drift happens when in an environment of servers with the exact same configuration and software, a certain server
 or servers are being applied with updates or configuration which other servers don't get and over time these servers become
