@@ -339,6 +339,13 @@ Reliability, when used in DevOps context, is the ability of a system to recover 
 <summary>What types of tests are you familiar with?</summary><br><b>
 
 Styling, unit, functional, API, integration, smoke, scenario, ...
+	
+Unit tests are the fastest and least expensive tests you can write. They should cover most if not all of your application’s logic.
+
+Integration tests validate how your code interacts with other parts of the system but without the added complexity of a UI framework. (JUnit)
+	
+UI tests are the slowest and most expensive kind of test. They are slow because you must deploy your app to an emulator or device and drive it using the UI. ( UI Automator)
+
 
 You should be able to explain those that you mention.
 </b></details>
